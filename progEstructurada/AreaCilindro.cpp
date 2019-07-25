@@ -7,10 +7,10 @@ int main(){
     //Se leen los valores de las variables
 
     printf("Vamos a calcular el volumen de un cilindro! \n\n");
-    printf("Ingresa el radio de la base: \n");
-    scanf("%f", radio);
-    printf("Ingresa la altura del cilindro: \n");
-    scanf("%f", altura);
+    printf("Ingresa el radio de la base: ");
+    scanf("%f", &radio);
+    printf("Ingresa la altura del cilindro: ");
+    scanf("%f", &altura);
 
     //Realizamos las operaciones
     
@@ -19,7 +19,7 @@ int main(){
 
     //Mostramos el resultado
     printf("\nEl area de la base es: %f \n", area);
-    printf("El volumen del cilindro es: %f ", volumen);
-    
+    printf("El volumen del cilindro es: %f \n", volumen);
+
     return 0;
 }
