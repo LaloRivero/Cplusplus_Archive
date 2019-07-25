@@ -3,6 +3,7 @@
 
 int main(){
     int value, res;
+    
     printf("Operadores de Incremento y Decremento\n");
      value = 25;
      res = value++;
